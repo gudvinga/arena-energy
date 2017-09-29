@@ -3,11 +3,12 @@
 require '../lib/phpmailer/PHPMailerAutoload.php';
 $usermail = $_POST["email"];
 $username = $_POST["name"];
-$adminmail = 'gudvin_zive@tut.by';
+$adminmail = 'info@arena-energy.by';
 
 $mailer = new PHPMailer();
-$mailer->setFrom('info@arenagel.atservers.net', 'Arena');
-$mailer->addReplyTo('info@arenagel.atservers.net', 'Arena');
+$mailer->CharSet = 'utf-8';
+$mailer->setFrom('info@arena-energy.by', '«Арена» Нон-Стоп');
+$mailer->addReplyTo($usermail, $username);
 $mailer->AddAddress($adminmail);
 // Устанавливаем тему письма
 $mailer->Subject = 'Предложение месяца';
@@ -17,14 +18,14 @@ $mailer->Send();
 $mailer->ClearAddresses();
 $mailer->ClearAttachments();
 
-$mailer->setFrom('info@arenagel.atservers.net', 'Arena');
-$mailer->addReplyTo('info@arenagel.atservers.net', 'Arena');
+$mailer->setFrom('info@arena-energy.by', '«Арена» Нон-Стоп');
+$mailer->addReplyTo('info@arena-energy.by', '«Арена» Нон-Стоп');
 $mailer->AddAddress($usermail);
 // Устанавливаем тему письма
 $mailer->Subject = 'Предложение месяца';
 
 // Задаем тело письма
-$mailer->Body = 'Только до конца февраля, при единоразовой покупке девяти гелей, десятый вы получаете совершенно бесплатно!';
+$mailer->Body = "Акция! \r\nТолько до конца февраля, при единоразовой покупке девяти гелей «Арена» Нон-Стоп, десятый, Вы получаете совершенно бесплатно! \r\n______________________________________ \r\nПодробности акции уточняйте по телефонам:\r\n+375 29 7568394 (МТС)\r\n+375 44 5343831 (Velcom)\r\nhttp://arena-energy.by";
 
 if(!$mailer->Send())
 {

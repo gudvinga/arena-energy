@@ -4,11 +4,12 @@ require '../lib/phpmailer/PHPMailerAutoload.php';
 $usermail = $_POST["email"];
 $username = $_POST["name"];
 $message = $_POST["message"];
-$adminmail = 'gudvin_zive@tut.by';
+$adminmail = 'info@arena-energy.by';
 
 $mailer = new PHPMailer();
-$mailer->setFrom('info@arenagel.atservers.net', 'Arena');
-$mailer->addReplyTo('info@arenagel.atservers.net', 'Arena');
+$mailer->CharSet = 'utf-8';
+$mailer->setFrom('info@arena-energy.by', '«Арена» Нон-Стоп');
+$mailer->addReplyTo($usermail, $username);
 $mailer->AddAddress($adminmail);
 // Устанавливаем тему письма
 $mailer->Subject = 'Письмо с сайта Arena';
@@ -18,8 +19,8 @@ $mailer->Send();
 $mailer->ClearAddresses();
 $mailer->ClearAttachments();
 
-$mailer->setFrom('info@arenagel.atservers.net', 'Arena');
-$mailer->addReplyTo('info@arenagel.atservers.net', 'Arena');
+$mailer->setFrom('info@arena-energy.by', '«Арена» Нон-Стоп');
+$mailer->addReplyTo('info@arena-energy.by', '«Арена» Нон-Стоп');
 $mailer->AddAddress($usermail);
 // Устанавливаем тему письма
 $mailer->Subject = 'Вы оставили комментарий на сайте Арена';

@@ -108,6 +108,7 @@ em {
 	font-family: 'Bebas Neue';
 	font-size: 32px;
 }
+strong {font-weight: 700;}
 h1, h2, h3, h4, h5 {
 	font-family: 'Bebas Neue';
 	font-weight: 700;
@@ -163,7 +164,7 @@ p.main-message span {
 }
 .wrapper {
 	width: 100%;
-	min-width: 980px
+	min-width: 1000px
 }
 .inner {
 	width: 960px;
@@ -335,11 +336,11 @@ textarea {
 }
 .left {
 	float: left;
-	margin: 0px 200px 150px 0px;
+	margin: 0px 200px 100px 0px;
 }
 .right {
 	float: right;
-	margin: 0px 0px 150px 200px;
+	margin: 0px 0px 100px 200px;
 }
 .bottom-margin-50 {
 	margin-bottom: 50px;
@@ -416,4 +417,52 @@ footer {
 	min-height: 40px;
 	text-align: center;
 }
-
+.popup {
+	color: #000;
+}
+.popup img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 2em;
+}
+.popup p{
+	line-height: 1.5em;
+}
+.popup ul {
+	list-style-type: initial;
+	margin-bottom: 1em;
+}
+.popup ul li {
+	margin-left: 1.2em;
+}
+.popup table {
+	margin-bottom: 1em;
+	width: 70%;
+	text-align: center;
+}
+.popup table tr:nth-child(odd){
+	background-color: #eee;
+}
+.popup table td:first-child {
+	text-align: left;
+}
+.popup table td, .popup table th {
+	border: 1px solid #09091a;
+	padding: 10px;
+}
+.popup table th {
+	background-color: #09091a;
+	border: 1px solid #09091a;
+	font-weight: 700;
+	color: #fff;
+}
+table.social {
+	width: 50%;
+	float: none;
+	clear: both;
+	margin: 0 auto;
+	text-align: center;
+}
+table.social a{
+	margin: 0px;
+}

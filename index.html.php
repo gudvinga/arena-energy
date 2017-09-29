@@ -1,70 +1,15 @@
 <!doctype html>
 <html>
     <head>
-        <title>Углеводный гель и изотоник «АРЕНА» Нон-стоп, энергия твоего движения!</title>
-        <meta name="keywords" content="бег, гель, изотоник, напиток бег, гель бег, спортивное питание, питание бег, гель арена, изотоник арена">
-        <meta name="description" content="Качественное спортивное питание, по доступной цене. Углеводные гели и изотоник в Минске. С ними ты можешь больше!" />
+        <title>Энергетический гель и изотоник «АРЕНА» Нон-стоп, энергия твоего движения!</title>
+        <meta name="keywords" content="энергетический ель, углеводный гель, изотоник, напиток бег, гель бег, спортивное питание, питание бег, гель арена, изотоник арена">
+        <meta name="description" content="Качественное спортивное питание, по доступной цене. Энергетические углеводные гели и изотоник в Минске. С ними ты можешь больше!" />
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width">
         <meta name="theme-color" content="red">
         <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <link href="css/style.css" rel="stylesheet" media="all">
         <link href="css/magnific-popup.css" rel="stylesheet" media="all">
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-        <script type="text/javascript" src="js/scroll.js"></script>
-        <script type="text/javascript" src="js/jquery.form.js"></script>
-        <script type="text/javascript" src="js/jquery.validate.js"></script>
-        <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
-      <script type="text/javascript">
-      $('document').ready(function(){
-        $('#form').validate(
-        { 
-          //Правила
-          rules:{
-            "name":{ required:true, maxlength:40, minlength:2 },
-            "email":{ required:true, email:true }
-          },
-          //Текста предупреждений
-          messages:{
-            "name":{ required:"Обязательное поле!", 
-            maxlength: "Максимальное количество символов 40 единиц!", minlength: "Минимальное количество символов 2" },
-            "email":{ required:"Обязательное поле!", email: "Введите действительный e-mail" }
-          },
-          //Обработчик и отправка данных
-          submitHandler: function(form){
-            $(form).ajaxSubmit({
-              target: '#result', 
-              success: function() { 
-                $('#FormBox').slideUp('fast'); 
-              } 
-            }); 
-          }
-        })
-      $('#form-contact').validate(
-        { 
-          //Правила
-          rules:{
-            "name":{ required:true, maxlength:40, minlength:2 },
-            "email":{ required:true, email:true }
-          },
-          //Текста предупреждений
-          messages:{
-            "name":{ required:"Обязательное поле!", 
-            maxlength: "Максимальное количество символов 40 единиц!", minlength: "Минимальное количество символов 2" },
-            "email":{ required:"Обязательное поле!", email: "Введите действительный e-mail" }
-          },
-          //Обработчик и отправка данных
-          submitHandler: function(form){
-            $(form).ajaxSubmit({
-              target: '#result2', 
-              success: function() { 
-                $('#FormBox2').slideUp('fast'); 
-              } 
-            }); 
-          }
-        })
-      });
-</script>
 </head>
 <body>
 <div class="wrapper">
@@ -84,7 +29,7 @@
       <p class="main-message">Энергия <span>для тебя</span></p>
       <h4>Ты можешь больше...</h4>
       <div class="message">
-      <h1>Углеводный гель и изотоник «АРЕНА» Нон-стоп,</h1><p>для тех, кто никогда не останавливается на достигнутых результатах и хочет улучшить свой тренировочный процеcс.</p>
+      <h1>Энергетический гель и изотоник «АРЕНА» Нон-стоп,</h1><p>для тех, кто никогда не останавливается на достигнутых результатах и хочет улучшить свой тренировочный процеcс.</p>
       </div>
     </div>
   </main>
@@ -106,45 +51,36 @@
     <h2>Откуда берётся энергия?</h2>
       <div class="left">
         <h3>Глюкоза-фруктоза</h3>
-        <p>Глюкоза-фруктоза в чистом виде, обеспечивает мгновенное поступление углеводов в кровь. Результат уже чувствуется втечении 2–3-х минут.</p>
+        <p>Глюкоза-фруктоза в чистом виде, обеспечивает мгновенное поступление углеводов в кровь. Заряд энергии на заставит долго ждать себя. Результат уже чувствуется в течение 2–3-х минут.</p>
       </div>
       <div class="right">
         <h3>Пищевые волокна</h3>
-        <p>Очень-очень длинные пищевые волокна, организму требуется окола часа на их расщепление. Обеспечивают организм долговременной энергией.</p>
+        <p>Очень-очень длинные пищевые волокна, организму требуется около часа на их расщепление. Обеспечивают организм долговременной энергией, когда действие глюкозы-фруктозы подходит к концу.</p>
       </div>
       <div class="left bottom-margin-50">
         <h3>Мальтодекстрин</h3>
-        <p>Более длинные углеводы, которые сначала расщепляются, а потом попадают в организм. Эти углеводы работают втечении 30 мин.</p>
+        <p>Более длинные углеводы, которые сначала расщепляются, а потом попадают в организм. Эти углеводы работают в течение 30 мин.</p>
       </div>
       <div class="right bottom-margin-50">
         <h3>Витаминный заряд</h3>
         <p>Витамины и минералы, позволяют своевременно компенсировать их потерю во время физических нагрузок.</p>
       </div>
       <a class="button about_gel" href="/html/about_gel.html">Подробнее</a>
-      <script type="text/javascript">
-      $(document).ready(function() {
-        $('.about_gel').magnificPopup({
-          type: 'ajax',
-          alignTop: true,
-          overflowY: 'scroll'
-        });   
-      });
-    </script>
     </div>
    </div>
    <div class="about" id="about_link">
       <div class="inner">
         <h2>О бренде</h2>
-        <p>Спортивное питание «Арена Нон-Стоп»  — российская разработка компании ООО «МВ Энеджи».</p>
-        <p>Теперь доступна и белорусским атлетам.</p>
-        <p>Углеводные гели и изотонические напитки «Арена Нон-Стоп» выпускаются с 2006 года и являются высокоэффективным, сбалансированным и доступным по цене питанием для спортсменов и людей ведущих активный образ жизни.</p>
+        <p>Энергетические углеводные гели и изотоник «Арена» Нон-Стоп  — российская разработка компании ООО «МВ Энеджи».</p>
+        <p>Теперь доступны и белорусским атлетам.</p>
+        <p>Углеводные гели и изотонические напитки «Арена» Нон-Стоп выпускаются с 2006 года и являются высокоэффективным, сбалансированным и доступным по цене питанием для спортсменов и людей ведущих активный образ жизни.</p>
         <div class="quote">
           <em>Энергетические гели я делал для себя и делал их с любовью</em>
-          <p><i>Игорь Ямчук, создатель геля «Арена Нон-Стоп»</i></p>
+          <p><i>Игорь Ямчук, создатель геля «Арена» Нон-Стоп</i></p>
         </div>
         <p>За эти годы множество спортсменов циклических видов спорта, альпинистов, туристов, военных, работников МЧС оценили эффективность и качество продукции «Арена Нон-Стоп».</p>
         <p>Продукция «Арена Нон-Стоп» производится на специализированном промышленном оборудовании и проходит жёсткий контроль качества. Наш продукт можно назвать французским. Глюкозо-фруктозный сироп, который применяется для приготовления гелей, делается в Ефремове Тульской области, но на французском заводе «Каргилл». Пищевые волокна и мальтодекстрин также производятся на «Каргилле». Из отечественного в нашем геле только яблочное пюре.</p>
-        <p>Для производства спортивного питания «Арена Нон-Стоп» используются наиболее качественные компоненты, а состав разработан на основе научных исследований и обратной связи от использующих нашу продукцию спортсменов.</p>
+        <p>Для производства спортивного питания «Арена» Нон-Стоп используются наиболее качественные компоненты, а состав разработан на основе научных исследований и обратной связи от использующих нашу продукцию спортсменов.</p>
         <p>Убедитесь в этом сами и, уверены, мы с вами станем хорошими друзьями!</p>
       </div>
    </div>
@@ -159,24 +95,15 @@
           <h3>Оптимальный вкус</h3>
           <p>Превосходный вишневый вкус подойдет, как любителям сладкого, так и тем, кто предпочитает нейтральный вкус изотоника.</p>
         </div>
-        <div class="left bottom-margin-50">
+        <div class="left bottom-margin-100">
           <h3>Супер восстановление</h3>
           <p>Выпейте после тренировки 100-150 мл изотоника, и ваше восстановление пройдет намного быстрее.</p>
         </div>
-        <div class="right bottom-margin-50">
-          <h3>Витаминый заряд</h3>
+        <div class="right bottom-margin-100">
+          <h3>Витаминный заряд</h3>
           <p>Витамины и минералы, обеспечивают оптимальный водно-солевой баланс во время физической активности.</p>
         </div>
         <a class="button about_isotonic" href="/html/about_isotonic.html">Подробнее</a>
-      <script type="text/javascript">
-      $(document).ready(function() {
-        $('.about_isotonic').magnificPopup({
-          type: 'ajax',
-          alignTop: true,
-          overflowY: 'scroll'
-        });   
-      });
-    </script>
       </div>
    </div>
    <div class="contacts" id="contacts_link">
@@ -201,6 +128,12 @@
          </form>
       </div>
      </div>
+     <table class="social">
+     	<tr>
+     		<td><a href="https://vk.com/arenaenergyby" target="_blank" title="Энергетические гели и изотоник Арена ВКонтакте"><img src="images/vk-icon.png"></a></td>
+     		<td><a href="https://www.instagram.com/arenaenergyby" target="_blank" title="Энергетические гели и изотоник Арена в Инстаграме"><img src="images/insta-icon.png"></a></td>
+     		<td><a href="https://www.facebook.com/arenaenergyby" target="_blank" title="Энергетические гели и изотоник Арена в Фейсбуке"><img src="images/fb-icon.png"></a></td>
+     </table>
     </div>
    </div>
   <footer>
@@ -210,5 +143,33 @@
     </div>
   </footer>
 </div>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="js/scroll.js"></script>
+    <script type="text/javascript" src="js/jquery.form.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.js"></script>
+    <script type="text/javascript" src="js/ajax_form.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('.about_gel').magnificPopup({
+          type: 'ajax',
+          alignTop: true,
+          removalDelay: 300,
+          mainClass: 'mfp-fade',
+          overflowY: 'scroll'
+        });   
+      });
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('.about_isotonic').magnificPopup({
+          type: 'ajax',
+          alignTop: true,
+          removalDelay: 300,
+          mainClass: 'mfp-fade',
+          overflowY: 'scroll'
+        });   
+      });
+     </script>
 </body>
 </html>

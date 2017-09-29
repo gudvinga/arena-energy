@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /lib/
+Disallow: /php/
+Disallow: /js/
+Disallow: /html/error-404.html

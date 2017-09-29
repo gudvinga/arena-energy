@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.arena-energy\.by$ [NC]
+RewriteRule ^(.*)$ http://arena-energy.by/$1 [R=301,L]
+ErrorDocument 404 /html/error-404.html
